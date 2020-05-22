@@ -86,7 +86,6 @@ class UploadTest(unittest.TestCase):
         # Generate temporary distgit config for this test run
         self.config = _dump_config_file(self.topdir)
 
-        print(SERVER)
         self._run_server()
 
         # Create a package with a single source file in each namespace
